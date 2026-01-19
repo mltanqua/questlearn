@@ -1,0 +1,35 @@
+<!doctype html> 
+<html lang="en"> 
+    <head>
+        <meta charset="UTF-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>QuestLearn - Dashboard</title>
+        <link rel="stylesheet" href="styles.css"> 
+    </head>
+    <body> 
+        <header> 
+            <h1>Dashboard</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="demo.html">Demo</a></li>
+                    <li><a href="character.html">Character</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section> 
+                <h2>Status</h2>
+                <p>Gold: <strong id="pointsValue">0</strong></p>
+                <p>Level: <strong id="levelValue">1</strong></p>
+                <p>Title: <strong id="titleValue">-</strong></p>
+            </section>
+            <section>
+                <h2>Quest Log</h2>
+                <ul id="questList"></ul>
+            </section>
+        </main>
+        <script src="app.js"></script>
+    </body>
+</html>

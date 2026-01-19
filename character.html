@@ -1,0 +1,44 @@
+<!doctype html> 
+<html lang="en"> 
+    <head>
+        <meta charset="UTF-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>QuestLearn - Character</title>
+        <link rel="stylesheet" href="styles.css"> 
+    </head>
+    <body> 
+        <header> 
+            <h1>Character</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="demo.html">Demo</a></li>
+                    <li><a href="character.html">Character</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <h2>Status</h2>
+                <p>Points: <strong id="pointsValue">0</strong></p>
+                <p>Level: <strong id="levelValue">1</strong></p>
+                <p>Title: <strong id="titleValue">-</strong></p>
+            </section>
+            <section>
+                <h2>Equipped</h2>
+                <ul>
+                    <li>Hat: <span id="equipped-hat">None</span></li>
+                    <li>Outfit: <span id="equipped-outfit">None</span></li>
+                    <li>Aura: <span id="equipped-aura">None</span></li>
+                    <li>Pet: <span id="equipped-pet">None</span></li>
+                </ul>
+            </section>
+            <section>
+                <h2>Wardrobe (Owned)</h2>
+                <ul id="wardrobeGrid"></ul>
+            </section>
+        </main>
+        <script src="app.js"></script>
+    </body>
+</html>
